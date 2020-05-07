@@ -85,6 +85,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: transform .2s;
 
   &:not(:last-child){
     margin-bottom: 2rem;
@@ -111,6 +112,7 @@
 
   &:hover{
     cursor: pointer;
+    transform: scale(1.1);
   }
 
 }

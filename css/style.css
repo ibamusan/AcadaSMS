@@ -297,7 +297,8 @@ body {
 .message-box {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  transition: transform .2s; }
   .message-box:not(:last-child) {
     margin-bottom: 2rem; }
   .message-box__photo {
@@ -312,7 +313,8 @@ body {
     font-size: 1.2rem;
     color: var(--color-grey-dark-2); }
   .message-box:hover {
-    cursor: pointer; }
+    cursor: pointer;
+    transform: scale(1.1); }
 
 .btn-inline {
   border: none;
