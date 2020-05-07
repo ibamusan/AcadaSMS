@@ -1,4 +1,117 @@
 .user-detail{
-  background-color: #af1c1c;
+  background-color: #fff;
   flex: 0 0 20%;
 }
+
+.logout{
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 5.5rem;
+  color: var(--color-primary-dark);
+
+  &__icon{
+    height: 2rem;
+    width: 2rem;
+    fill: currentColor;
+  }
+
+  &__text{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    margin: 0 1.5rem;
+    text-decoration: none;
+  }
+}
+
+
+.img-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
+  
+  &__photo{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+  }
+
+  &__title{
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 800;
+    margin-top: 2rem;
+  }
+
+  &__rep{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    color: var(--color-primary-dark);
+  }
+}
+
+
+.notification{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 3rem;
+  color: var(--color-primary-dark);
+
+  &__heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  &__icon{
+    height: 3rem;
+    width: 3rem;
+    fill: currentColor;
+  }
+
+}
+
+.messages{
+  margin: 0 2rem;
+  
+}
+
+.message-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:not(:last-child){
+    margin-bottom: 2rem;
+  }
+
+  &__photo{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+
+  }
+
+  &__heading{
+    font-size: 1.5rem;
+    color: #000;
+
+  }
+
+  &__detail{
+    font-size: 1.2rem;
+    color: var(--color-grey-dark-2);
+  }
+
+  &:hover{
+    cursor: pointer;
+  }
+
+}
+
