@@ -1,0 +1,166 @@
+.content{
+  flex: 1;
+}
+
+// Dashboard
+
+.dashboard-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 1.5rem;
+  color: #000;
+
+  &__title{
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+}
+
+.day{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__date{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  &__icon{
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    padding: .5rem;
+    margin-left: 1.5rem;
+  }
+
+}
+
+
+// school-menu
+
+.school{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5rem;
+
+}
+
+.school-box{
+  height: 20rem;
+  width: 30rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  box-shadow:  var(--shadow-light);
+  transition: all .2s;
+
+
+  &__detail{
+
+    &--name{
+      font-size: 3.5rem;
+      font-weight: 300;
+      color: black;
+    }
+
+    &--number{
+      font-size: 5rem;
+      color: var(--color-primary-dark);
+      font-weight: 800;
+    }
+  }
+
+  &__host{
+   
+    &--icon{
+      height: 8rem;
+      width: 8rem;
+      border-radius: 50%;
+      padding: .5rem;
+      background-color: var(--color-dull-light);
+      
+    }
+  }
+
+  &:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+  
+}
+
+.menu{
+  height: 50rem;
+  width: 108rem;
+  background-color: #fff;
+  margin: 1.5rem auto;
+  border-radius: 10px;
+  padding: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.menu-card{
+    
+  height: 20rem;
+  width: 30rem;
+  border-radius: 10px;
+  margin-left: 1.5rem;
+  background-color: var(--color-mist-light);
+  transition: all .2s;
+ 
+
+  &__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-primary-dark);
+
+
+    &--heading{
+      font-size: 2.5rem;
+      color: var(--color-primary-dark);
+      padding: 0.5rem 1rem;
+    }
+
+    &--icon{
+      height: 2.5rem;
+      width: 2.5rem;
+      margin-right: 1.5rem;
+      fill: currentColor;
+    }
+
+  }
+
+  &__title{
+   
+  }
+
+  &__detail{
+    font-size: 1.5rem;
+    color: #000000;
+    padding: .8rem;
+  }
+
+  &:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
