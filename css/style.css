@@ -74,7 +74,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 85rem; }
+  height: 80rem; }
 
 .navigation__list {
   list-style: none; }
@@ -82,7 +82,7 @@ body {
 .navigation__item {
   position: relative; }
   .navigation__item:not(:last-child) {
-    margin-bottom: 1rem; }
+    margin-bottom: .5rem; }
 
 .navigation__item--active {
   color: var(--color-dull-dark); }
@@ -108,7 +108,7 @@ body {
   font-size: 2rem;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.7);
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
   display: block;
   display: flex;
   align-items: center; }
